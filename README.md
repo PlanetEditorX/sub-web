@@ -27,7 +27,7 @@ docker run -d -p 58080:80 --restart always --name subweb yexundao/subweb:latest
 ```
 后端
 ```shell
-docker run -d --restart=always -p 25500:25500 tindy2013/subconverter:latest
+docker run -d --restart=always -p 25500:25500 --name subconverter tindy2013/subconverter:latest
 ```
 
 若需要对代码进行修改，你需要在本地构建镜像并运行。
