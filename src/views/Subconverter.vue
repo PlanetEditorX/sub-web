@@ -232,7 +232,7 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://192.168.3.2:25500/sub?" },{ value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
             {
             label: "My-Custom",
@@ -319,7 +319,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "http://127.0.0.1:25500/sub?",
+        customBackend: "http://192.168.3.2:25500/sub?",
         remoteConfig: "https://github.com/PlanetEditorX/subconverter/raw/refs/heads/master/base/config/ACL4SSR_Online_Full_AdblockPlus.ini",
         excludeRemarks: "",
         includeRemarks: "",
